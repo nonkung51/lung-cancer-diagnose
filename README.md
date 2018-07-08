@@ -1,15 +1,9 @@
-# Image Classifier Web App with InceptionV3
+# AI วินิจฉัยมะเร็งปอดสร้างด้วย Keras
 
-A simple Flask based webapp where you paste the url of an image and it gives you the top 5 class label with score . 
+Train ด้วยข้อมูลจาก [cancerimagingarchive.net](http://cancerimagingarchive.net/)
+ความแม่นยำ < 80%
+พัฒนาเป็น webapp ด้วย flask
+ข้อมูลเพิ่มเติม [AI วินิจฉัยมะเร็งปอด](https://medium.com/@nonthakon/ai-วินิจฉัยมะเร็งปอด-e9d02cdaff64)
 
-<img src="https://github.com/zed41/learning-deep-learning-/raw/master/img_classifier_webapp/screenshot/1.png"/>
-
-## Dependencies 
-
-	Keras
-	Opencv 3.1
-	Flask
-	
-## How to Run
-	
-	python classify.py
+### ตัวอย่างการทำงานของโปรแกรม
+![](https://raw.githubusercontent.com/nonkung51/lung-cancer-diagnose/master/screenshot.PNG)
